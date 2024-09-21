@@ -1,6 +1,7 @@
 html {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -23,10 +24,15 @@ body {
 
 #header-logo {
     margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .header-links {
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
 }
 
 li {
