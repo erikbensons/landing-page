@@ -41,3 +41,89 @@ li {
     padding: 0;
     list-style: none;
 }
+
+.content {
+    height: 400px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.first > * {
+    flex: 1 1 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-image {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    flex: 2;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 32px;
+    color: #F9FAF8;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.sign-up:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.second {
+    background-color: #F9FAF8;
+}
+
+h2 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.box-holder {
+    display: flex;
+    gap: 20px;
+}
+
+.box-with-text {
+    width: 150px;
+}
+
+.box {
+    border-radius: 8px;
+    border: #3882F6 solid 4px;
+    width: 150px;
+    height: 150px;
+}
