@@ -198,3 +198,8 @@ h3 {
     align-items: center;
     height: 80px;
 }
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
+}
